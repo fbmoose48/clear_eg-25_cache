@@ -1,0 +1,9 @@
+[Unit]
+Description=A job to clear eg-25 modem cache
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/clear-cache.sh
+
+[Install]
+WantedBy=default.target
