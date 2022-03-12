@@ -1,0 +1,9 @@
+[Unit]
+Description=clear EG-25 modem cache hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
